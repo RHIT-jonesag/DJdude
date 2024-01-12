@@ -1,0 +1,478 @@
+/* Padding Settings to remove whitespace */
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  /* Removes scrollbar */
+::-webkit-scrollbar{
+  display:none;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* -------------------- Sets the div1 (Above the fold) -------------------- */
+.div1{
+    background-image: url(imgs/Untitled\ design\ \(51\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    box-shadow: 0 0 10px 10px #121212 inset; /* Blurs the edges of background image */
+}
+
+/* The nav bar */
+.navbar {
+  overflow: hidden;
+  transition: background-color 200ms linear;
+  background-color: rgb(234, 239, 255, 0);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar.scrolled {
+  background-color: #474747;
+  transition: background-color 200ms linear;
+  border-bottom: solid #000000 0.25vh;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  display: flex;
+  color: #EAEFFF;
+  text-align: center;
+  padding: 3vh 1vw;
+  text-decoration: none;
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 2.3vw;
+}
+
+.navbar a:hover{
+  color: #d0992e;
+  border-radius: 0vh
+}
+
+/* Change scrolled background on hover */
+.navbar.scrolled a:hover {
+  color:#d0992e;
+  border-radius: 0vh;
+}
+
+/* Call To Action */
+.callToAction {
+  display: flex;
+  padding-top: 58vh;
+  padding-left: 7vw;
+}
+
+.CTA1 {
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 8vw;
+  text-align: center;
+  color: #d0992e;
+  text-decoration: none;
+}
+
+.CTA2 {
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 8vw;
+  text-align: center;
+  color: #d0992e;
+  padding-top: 1em;
+  translate: -27vw;
+  text-decoration: none;
+}
+
+/* -------------------- Sets the div2 (About) -------------------- */
+.div2 {
+  min-height: 40vw;
+  background-image: linear-gradient(#121212, #706f6a)
+}
+
+.aboutMeTitle {
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 7vw;
+  color: #d0992e;
+  translate: 65vw;
+  padding-top: 10vw;
+}
+
+.aboutMeText {
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 2vw;
+  color: #EAEFFF;
+  max-width: 40%;
+  translate: 52vw;
+  padding: 2vw;
+}
+
+/* -------------------- Sets the div3 (Equipment) -------------------- */
+.div3 {
+  display: flex;
+  padding-bottom: 5vw;
+  justify-content: space-between;
+  min-height: 28vw;
+  background-image: linear-gradient(#706f6a, #bdbdbd)
+}
+
+.equipmentTitle {
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 7vw;
+  color: #d0992e;
+  text-align: left;
+  margin-top:9vw;
+  margin-left: 5vw;
+}
+
+.equipmentList {
+  margin-top:4vw;
+  margin-right:8vw;
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 3vw;
+  text-align: left;
+  align-items: right;
+}
+
+/* -------------------- Sets the div4 (Contact) -------------------- */
+.div4 {
+  min-height: 15vw;
+  background-color: #bdbdbd;
+  padding: 1vw;
+}
+
+.contactTitle {
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 7vw;
+  color: black;
+  text-align: center;
+}
+
+.contact-row1{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-top: 2vw;
+}
+
+.name{
+  background-color:#706f6a;
+  color:white;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius: 0.5vw;
+  border: solid #35394F 0.125vw;
+  padding:1vw;
+  font-size: 2vw;
+  margin: 5px;
+}
+
+.phone{
+  background-color:#706f6a;
+  color:white;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius: 0.5vw;
+  border: solid #35394F 0.125vw;
+  padding:1vw;
+  font-size: 2vw;
+  margin: 5px;
+}
+
+.email{
+  background-color:#706f6a;
+  color:white;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius: 0.5vw;
+  border: solid #35394F 0.125vw;
+  padding:1vw;
+  font-size: 2vw;
+  margin: 5px;
+}
+
+.name::placeholder{
+  color: rgb(189, 189, 189);
+}
+
+.phone::placeholder{
+  color: rgb(189, 189, 189);
+}
+
+.email::placeholder{
+  color: rgb(189, 189, 189);
+}
+
+.message::placeholder{
+  color: rgb(189, 189, 189);
+}
+
+.contact-row2{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.contact-row3{
+  display:flex;
+  justify-content: center;
+  padding:15px;
+  padding-bottom: 20px;
+}
+
+.send-message{
+  background-color: #706f6a;
+  border:solid #35394F 0.125vw;
+  color:rgb(189, 189, 189);
+  padding:0.5vw;
+  font-size:2vw;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius:0.5vw;
+}
+
+.send-message:hover{
+  background-color: #d0992e;
+  color:#000000;
+}
+
+.message{
+  background-color:#706f6a;
+  color:white;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius: 0.5vw;
+  border: solid #35394F 0.125vw;
+  padding:1vw;
+  font-size: 2vw;
+  margin-top: 2vw;
+  width: 88.8%;
+}
+
+/* -------------------- Sets the div4 (Contact) -------------------- */
+.footer1 {
+  display:flex;
+  min-height: 5vw;
+  background-color: #474747;
+  padding: 1vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer2 {
+  display:flex;
+  min-height: 5vw;
+  background-color: #474747;
+  padding: 1vw;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1vw;
+}
+
+.additionalInformation {
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 3vw;
+  color: #d0992e;
+}
+
+.instaLink {
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 3vw;
+  color: #d0992e;
+  text-decoration: underline;
+  margin-left:1vw;
+}
+
+.moreContact {
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 3vw;
+  color: #d0992e;
+}
+
+/* -------------------- Sets the Scheduling Page -------------------- */
+
+.scheduleStyle {
+  min-height: 100vh;
+  background-image: linear-gradient(#121212, #bdbdbd)
+}
+
+.title {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.back {
+  margin: 1vw;
+}
+
+.back :hover {
+  color:#edc068
+}
+
+.backButton {
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 2vw;
+  color: #d0992e;
+  text-align: left;
+}
+
+.titleText {
+  font-family: 'DejaVu Sans Mono, monospace'; /* Make the font Anantason (Expanded) */
+  font-size: 5vw;
+  color: #d0992e;
+}
+
+.schedule-row1 {
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-top: 2vw;
+  margin-top:1vw;
+}
+
+.scheduleName {
+  background-color:#706f6a;
+  color:white;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius: 0.5vw;
+  border: solid #35394F 0.125vw;
+  padding:1vw;
+  font-size: 2vw;
+  margin: 5px;
+}
+
+.schedulePhone {
+  background-color:#706f6a;
+  color:white;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius: 0.5vw;
+  border: solid #35394F 0.125vw;
+  padding:1vw;
+  font-size: 2vw;
+  margin: 5px;
+}
+
+.scheduleEmail {
+  background-color:#706f6a;
+  color:white;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius: 0.5vw;
+  border: solid #35394F 0.125vw;
+  padding:1vw;
+  font-size: 2vw;
+  margin: 5px;
+}
+
+.scheduleName::placeholder {
+  color: white;
+}
+
+.schedulePhone::placeholder {
+  color: white;
+}
+
+.scheduleEmail::placeholder {
+  color: white;
+}
+
+.scheduleMessage::placeholder {
+  color: white;
+}
+
+.scheduleDate {
+  background-color:#706f6a;
+  color:white;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius: 0.5vw;
+  border: solid #35394F 0.125vw;
+  padding:2vw;
+  font-size: 2vw;
+  margin: 5px;
+}
+
+.scheduleTime {
+  background-color:#706f6a;
+  color:white;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius: 0.5vw;
+  border: solid #35394F 0.125vw;
+  padding:2vw;
+  font-size: 2vw;
+  margin: 5px;
+}
+
+.scheduleLocation {
+  background-color:#706f6a;
+  color:white;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius: 0.5vw;
+  border: solid #35394F 0.125vw;
+  padding:2vw;
+  font-size: 2vw;
+  margin: 5px;
+}
+
+.scheduleDate::placeholder {
+  color: rgb(189, 189, 189);
+}
+
+.scheduleTime::placeholder {
+  color: rgb(189, 189, 189);
+}
+
+.scheduleLocation::placeholder {
+  color: white;
+}
+
+.schedule-row2 {
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-top: 2vw;
+  margin-top:1vw;
+}
+
+.schedule-row3 {
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top:1vw;
+}
+
+.schedule-row4 {
+  display:flex;
+  justify-content: center;
+  padding:15px;
+  padding-bottom: 20px;
+}
+
+.scheduleSend-message {
+  background-color: #706f6a;
+  border:solid #35394F 0.125vw;
+  color:white;
+  padding:0.5vw;
+  font-size:2vw;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius:0.5vw;
+  margin-top:2vw;
+}
+
+.scheduleSend-message:hover {
+  background-color: #d0992e;
+  color:#000000;
+}
+
+.scheduleMessage {
+  background-color:#706f6a;
+  color:white;
+  font-family:'Courier New', Courier, monospace; /* Make the font Anantason (Expanded) */
+  border-radius: 0.5vw;
+  border: solid #35394F 0.125vw;
+  padding:1vw;
+  font-size: 2vw;
+  margin-top: 2vw;
+  width: 88.8%;
+}

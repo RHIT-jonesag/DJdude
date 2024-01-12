@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The DJ Dude</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <div class = "div1" id="home-scroll">
+        <div class="navbar">
+            <a href="#home-scroll">Home</a>
+            <a href="#about-scroll">About Me</a>
+            <!-- Put the logo in the middle of the navbar -->
+            <a href="#equipment-scroll">Equipment</a>
+            <a href="#contact-scroll">Contact</a>
+        </div>
+        <div class = "callToAction"> <!-- Make this a link to a calendly page for Harrison -->
+            <a href="schedulePage.html" class="CTA1">Schedule</a>
+            <a href="schedulePage.html" class="CTA2">Now</a>
+        </div>
+    </div>
+    <div class="div2" id="about-scroll">
+        <!-- Add image for Harrisons 'about me' section -->
+        <h1 class="aboutMeTitle">About Me</h1>
+        <p class="aboutMeText">My name is Harrison Thrift! I am a one man DJ that can do it all! For proms, weddings, or any other occasion, 
+            I'm the man for you! I would be thrilled to DJ your event and bless you with good music and more fun!</p>
+    </div>
+    <div class="div3" id="equipment-scroll">
+        <h1 class="equipmentTitle">My Equipment</h1>
+        <ul class="equipmentList">
+            <li>2 Mainstage Speakers</li>
+            <li>1 16" subwoofer</li>
+            <li>1 Light Bar</li>
+            <li>6 Spotlights</li>
+            <li>Sound cart</li>
+            <li>3-4 mics</li>
+        </ul>
+    </div>
+    <div class="div4" id="contact-scroll">
+        <h1 class="contactTitle">Contact Me</h1>
+        <form action="https://formsubmit.co/thedjdude32@gmail.com" method="POST">
+            <div class="contact-row1">
+                <input class="name" name="name" placeholder="Name" type="text">
+                <input class="email" name="email" placeholder="Email" type="email">
+                <input class="phone" name="phone" placeholder="Phone" type="tel">
+            </div>
+            <div class="contact-row2">
+                <textarea class="message" name="message" placeholder="Message"></textarea>
+            </div>
+            <div class="contact-row3">
+                <button class="send-message" name="submit">Send Message</button>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="footer1">
+            <p class="additionalInformation">Want to learn more? Go to my Instagram page</p>
+            <a href="https://www.instagram.com/thedjdude32/" target="_blank"> <!-- change this link to Harrisons insta page -->
+                <p class="instaLink">here</p>
+            </a>
+        </div>
+        <!-- <div class="footer2">
+            <p class="moreContact">Also contact me at thedjdude32@gmail.com or at (812) 870-9194</p>
+        </div> -->
+    </div>
+
+</body>
+</html>
