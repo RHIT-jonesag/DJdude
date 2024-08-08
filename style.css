@@ -19,6 +19,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.body{
+  background-color: #292929;
+}
+
 /* -------------------- Sets the div1 (Above the fold) -------------------- */
 .div1{
     background-image: url(imgs/IMG_9216\ \(1\).jpg); /* or can use IMG_9219 */
