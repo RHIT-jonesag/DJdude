@@ -19,6 +19,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.head{
+  background-color: #292929;
+}
+
 .body{
   background-color: #292929;
 }
