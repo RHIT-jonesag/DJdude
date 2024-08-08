@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The DJ Dude</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/THE_DJ_DUDE-removebg-preview.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <script src="script.js"></script>
 
+    <!-- DIV 1 -->
     <div class = "div1" id="home-scroll">
         <div class="navbar">
             <a href="#home-scroll">HOME</a>
@@ -24,30 +26,55 @@
             <a href="schedulePage.html" class="CTA2">NOW</a>
         </div>
     </div>
+    <!-- DIV 2 -->
     <div class="div2" id="about-scroll">
-        <!-- Add image for Harrisons 'about me' section -->
-        <h1 class="aboutMeTitle">ABOUT ME</h1>
-        <p class="aboutMeText">My name is Harrison Thrift! I am a one man DJ that can do it all! For proms, weddings, or any other occasion, 
-            I'm the man for you! I would be thrilled to DJ your event and bless you with good music and more fun!</p>
+        <div class="aboutImage">
+            <img src="imgs/IMG_9217 (1).jpg" class="aboutMeImage">
+        </div>
+        <div class="aboutText">
+            <h1 class="aboutMeTitle">About Me</h1>
+            <p class="aboutMeText">My name is Harrison Thrift! I am a one man DJ that can do it all! For proms, weddings, or any other occasion, 
+                I'm the man for you! I would be thrilled to DJ your event and bless you with good music and more fun!</p>
+        </div>
     </div>
+    <!-- DIV 3 -->
     <div class="div3" id="equipment-scroll">
-        <h1 class="equipmentTitle">MY EQUIPMENT</h1>
-        <ul class="equipmentList">
-            <li>2 Mainstage Speakers</li>
-            <li>1 16" subwoofer</li>
-            <li>1 Light Bar</li>
-            <li>6 Spotlights</li>
-            <li>Sound cart</li>
-            <li>3-4 mics</li>
-        </ul>
+        <div class="split left">
+            <p class = "projects-title">Equipment</p>
+        </div>
+        <div class="split right">
+            
+            <div class="mySlides">
+                <img src="imgs/setup.jpg" class="slide1">
+            </div>
+            <div class="mySlides" style="display: none">
+                <img src="imgs/turntable.jpg" class="slide2">
+            </div>
+            <div class="mySlides" style="display: none">
+                <img src="imgs/screen.jpg" class="slide3">
+            </div>
+            <div class="mySlides" style="display: none">
+                <img src="imgs/mics.jpg" class="slide4">
+            </div>
+            <div class="mySlides" style="display: none">
+                <img src="imgs/light.jpg" class="slide5">
+            </div>
+            <div class="slide-buttons">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
     </div>
+    <!-- DIV 4 -->
     <div class="div4" id="contact-scroll">
-        <h1 class="contactTitle">CONTACT ME</h1>
+        <h1 class="contactTitle">Contact Me</h1>
         <form action="https://formsubmit.co/thedjdude32@gmail.com" method="POST">
             <div class="contact-row1">
                 <input class="name" name="name" placeholder="Name" type="text">
-                <input class="email" name="email" placeholder="Email" type="email">
                 <input class="phone" name="phone" placeholder="Phone" type="tel">
+            </div>
+            <div class="contact-row11">
+                <input class="email" name="email" placeholder="Email" type="email">
             </div>
             <div class="contact-row2">
                 <textarea class="message" name="message" placeholder="Message"></textarea>
@@ -57,6 +84,7 @@
             </div>
         </form>
     </div>
+    <!-- FOOTER -->
     <div class="footer">
         <div class="footer1">
             <p class="additionalInformation">Want to learn more? Go to my Instagram page</p>
