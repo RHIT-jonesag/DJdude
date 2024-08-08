@@ -40,7 +40,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 5vw;
+  max-height: 90px;
 }
 
 .navbar.scrolled {
@@ -50,7 +50,7 @@ html {
 }
 
 .DJD-logo {
-  width: 7vw;
+  width: 140px;
   margin:0.75vw;
   margin-top: 0.75vw;
 }
@@ -64,7 +64,7 @@ html {
   text-decoration: none;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 1.5vw;
+  font-size: 27px;
   transition: 0.3s;
 }
 
@@ -82,14 +82,14 @@ html {
 /* Call To Action */
 .callToAction {
   display: flex;
-  margin-top: 65vh;
+  margin-top: 500px;
   padding-left: 4vw;
 }
 
 .CTA1 {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  font-size: 6vw;
+  font-size: 80px;
   text-align: center;
   color: #61ac88;
   /* text-decoration: none;
@@ -99,11 +99,11 @@ html {
 .CTA2 {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 500;
-  font-size: 5vw;
+  font-size: 70px;
   text-align: center;
   color: #61ac88;
   margin-top: 1.25em;
-  translate: -31vw;
+  translate: -410px;
   /* text-shadow: 0.35vw 0.35vw 0.35vw black; */
   transition: 0.3s;
   text-decoration: none;
@@ -143,41 +143,39 @@ html {
 
 /* -------------------- Sets the div2 (About) -------------------- */
 .div2 {
-  min-height: 35vw;
+  min-height: 480px;
   background-image: linear-gradient(#000000, #505050);
   display: flex;
-  max-height: 35vw;
+  justify-content: center;
 }
 
 .aboutImage{
-  margin-left: 6vw;
-  margin-right: 5vw;
+  margin-right: 80px;
 }
 
 .aboutMeImage{
-  width: 35vw;
-  min-width: 35vw;
-  margin: 2vw;
+  width: 475px;
+  margin: 40px;
   border-radius: 0.5vw;
 }
 
 .aboutText{
   max-width: 40%;
-  margin-top: 6vw;
+  margin-top: 80px;
 }
 
 .aboutMeTitle {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
   font-stretch: ultra-expanded;
-  font-size: 7vw;
+  font-size: 100px;
   color: #5db58a;
 }
 
 .aboutMeText {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 2vw;
+  font-size: 25px;
   color: #EAEFFF;
   padding: 0.1vw;
 }
@@ -189,7 +187,7 @@ html {
   text-align: center;
   font-family:'Courier New', Courier, monospace;
   color: #9d9d9d;
-  max-height: 300.5vh;
+  max-height: 700px; /* 300.5vh */
 }
 
 .projects-title{
@@ -197,7 +195,7 @@ html {
   color: #61ac88;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 5vw;
+  font-size: 85px;
   margin-top: 15.5vw;
 }
 
@@ -206,31 +204,11 @@ html {
   justify-content: center;
   flex-direction: column;
   text-align: left;
-  margin-top: 2vh;
-  margin-left: 7vw;
+  margin-top: 25px;
+  margin-left: 8vw;
 }
 
-.slide1{
-  max-width: 45vw;
-  border-radius: 0.5vw;
-}
-
-.slide2{
-  max-width: 45vw;
-  border-radius: 0.5vw;
-}
-
-.slide3{
-  max-width: 45vw;
-  border-radius: 0.5vw;
-}
-
-.slide4{
-  max-width: 45vw;
-  border-radius: 0.5vw;
-}
-
-.slide5{
+.slide{
   max-width: 45vw;
   border-radius: 0.5vw;
 }
@@ -284,14 +262,14 @@ html {
 
 /* -------------------- Sets the div4 (Contact) -------------------- */
 .div4 {
-  min-height: 13vw;
   background-color: #525252;
+  padding: 10px;
 }
 
 .contactTitle {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 7vw;
+  font-size: 80px;
   color: #61ac88;
   text-align: center;
   /* text-shadow: 0.35vw 0.35vw 0.5vw rgb(103, 103, 103); */
@@ -301,7 +279,7 @@ html {
   display:flex;
   justify-content: center;
   flex-direction: row;
-  padding-top: 0.5vw;
+  padding-top: 10px;
 }
 
 .name{
@@ -309,14 +287,14 @@ html {
   color:white;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  border-radius: 0.1vw;
+  border-radius: 1px;
   border: none;
   outline: none;
   border-color: transparent;
-  padding:1vw;
-  font-size: 2vw;
-  margin: 0.2vw;
-  width: 32.2vw;
+  padding:17px;
+  font-size: 30px;
+  margin: 3px;
+  width: 515px;
 }
 
 .phone{
@@ -324,14 +302,14 @@ html {
   color:white;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  border-radius: 0.1vw;
+  border-radius: 1px;
   border: none;
   outline: none;
   border-color: transparent;
-  padding:1vw;
-  font-size: 2vw;
-  margin: 0.2vw;
-  width: 32.2vw;
+  padding:17px;
+  font-size: 30px;
+  margin: 3px;
+  width: 515px;
 }
 
 .contact-row11{
@@ -345,14 +323,14 @@ html {
   color:white;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  border-radius: 0.1vw;
+  border-radius: 1px;
   border: none;
   outline: none;
   border-color: transparent;
-  padding:1vw;
-  font-size: 2vw;
-  margin: 0.2vw;
-  width: 66.8vw;
+  padding:17px;
+  font-size: 30px;
+  margin: 3px;
+  width: 1070px;
 }
 
 .name::placeholder{
@@ -390,13 +368,13 @@ html {
   outline: none;
   border-color: transparent;
   color:rgb(189, 189, 189);
-  padding:0.5vw;
-  font-size:2vw;
+  padding:17px;
+  font-size:30px;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  border-radius:0.1vw;
+  border-radius:1px;
   transition: 0.3s;
-  width: 16vw;
+  width: 275px;
 }
 
 .send-message:hover{
@@ -409,51 +387,41 @@ html {
   color:white;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  border-radius: 0.1vw;
+  border-radius: 1px;
   border: none;
   outline: none;
   border-color: transparent;
-  padding:1vw;
-  font-size: 2vw;
-  margin-top: 0.3vw;
-  width: 66.8vw;
-  min-height: 20vw;
-  max-height: 20vw;
+  padding:17px;
+  font-size: 30px;
+  margin-top: 3px;
+  width: 1070px;
+  min-height: 300px;
+  max-height: 300px;
 }
 
 /* -------------------- Sets the div5 (Footer) -------------------- */
 .footer1 {
   display:flex;
-  min-height: 2vw;
+  min-height: 20px;
   background-color: #474747;
-  padding: 1vw;
+  padding: 15px;
   align-items: center;
   justify-content: center;
-}
-
-.footer2 {
-  display:flex;
-  min-height: 3vw;
-  background-color: #474747;
-  padding: 1vw;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 1vw;
 }
 
 .additionalInformation {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 1.5vw;
+  font-size: 25px;
   color: #e6e6e6;
 }
 
 .instaLink {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 1.5vw;
+  font-size: 25px;
   color: #e6e6e6;
-  margin-left:0.4vw;
+  margin-left: 7px;
   transition: 0.3s;
 }
 
@@ -495,251 +463,149 @@ a{
   color: #498266;
 }
 
-/* -------------------- Sets the Scheduling Page -------------------- */
-/* 
-.scheduleStyle {
-  min-height: 100vh;
-  background-image: linear-gradient(#121212, #bdbdbd)
+/* -----------------------Responsive Settings----------------------- */
+@media only screen and (max-width: 789px) {
+  .navbar a{
+    font-size: 3vw;
+  }
+  .DJD-logo{
+    width: 17vw;
+  }
 }
 
-.title {
-  display:flex;
-  justify-content: center;
-  text-align: center;
+@media only screen and (max-width: 634px) {
+  .CTA1 {
+    font-size: 10vw;
+  }
+  .CTA2 {
+    font-size: 10vw;
+    translate: -52vw;
+  }
 }
 
-.back {
-  margin: 1vw;
+@media only screen and (max-width: 1137px) {
+  .aboutMeImage{
+    width: 45vw;
+    margin: 1vw;
+  }
+  .aboutMeTitle{
+    font-size: 8vw;
+  }
+  .aboutMeText{
+    font-size: 2.5vw;
+    margin: 1vw;
+  }
+  .aboutText{
+    margin-top: 2vw;
+    max-height: 35vw;
+  }
+  .aboutImage{
+    max-height: 38vw;
+  }
+  .div2{
+    max-height: 40vw;
+    min-height: 40vw;
+  }
 }
 
-.backButton {
-  color: #40bc80;
-  text-decoration: none;
+@media only screen and (max-width: 600px) {
+  .aboutMeImage{
+    width: 98vw;
+    margin: 1vw;
+  }
+  .aboutMeTitle{
+    font-size: 14vw;
+  }
+  .aboutMeText{
+    font-size: 6vw;
+    margin: 1vw;
+    max-width: 80%;
+  }
+  .div2{
+    min-height: 25vw;
+    display:inline-table;
+  }
+  .aboutImage{
+    min-width: 100%;
+    min-height: 85vw;
+  }
+  .aboutText{
+    margin-top: 2vw;
+    max-height: 70vw;
+    min-width: 100%;
+  }
+  .aboutImage{
+    max-height: 38vw;
+  }
+  .div2{
+    max-height: 40vw;
+    min-height: 40vw;
+  }
 }
 
-.backButton {
-  background:
-    linear-gradient(
-      to right,
-      #40bc80,
-      #40bc80
-    ),
-    linear-gradient(
-      to right,
-      #5bd198,
-      #3de292,
-      rgb(0, 255, 132)
-  );
-  background-size: 100% 3px, 0 3px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
+@media only screen and (max-width: 1082px) {
+  .div3{
+    display:inline-table;
+    width:100%;
+  }
+  .left{
+    width:100%;
+  }
+  .right{
+    width:100%;
+  }
+  .mySlides{
+    margin-left: 2vw;
+  }
+  .projects-title{
+    margin-top: 1vw;
+  }
+  .slide{
+    min-width: 95vw;
+    max-width: 96vw;
+  }
+  .slide-buttons{
+    max-width: 17vw;
+    margin-left: 43vw;
+    font-size: 5vw;
+  }
 }
 
-.backButton:hover {
-  background-size: 0 3px, 100% 3px;
-  color:#29e888;
+@media only screen and (max-width: 450px) {
+  .projects-title{
+    font-size: 15vw;
+  }
 }
 
-.backButton {
-  font-family: sans-serif; 
-  font-stretch: ultra-expanded;
-  font-weight: bold;
-  font-size: 2vw;
-  color: #40bc80;
-  text-align: left;
-  transition: 0.3s;
+@media only screen and (max-width: 800px) {
+  .name{
+    width: 40vw;
+  }
+  .phone{
+    width: 40vw;
+  }
+  .email{
+    width: 85.2vw;
+  }
+  .message{
+    width: 85.2vw;
+    max-height: 25vw;
+    min-height: 25vw;
+  }
 }
 
-.titleText {
-  font-family: sans-serif; 
-  font-stretch: ultra-expanded;
-  font-weight: bold;
-  font-size: 5vw;
-  color: #40bc80;
+@media only screen and (max-width: 450px) {
+  .contactTitle{
+    font-size: 17vw;
+  }
 }
 
-.schedule-row1 {
-  display:flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  padding-top: 2vw;
-  margin-top:1vw;
+@media only screen and (max-width: 617px) {
+  .additionalInformation{
+    font-size: 3vw;
+  }
+  .instaLink{
+    font-size: 3vw;
+    margin-left: 0.6vw;
+  }
 }
-
-.scheduleName {
-  background-color:#706f6a;
-  color:white;
-  font-family: sans-serif; 
-  font-stretch: ultra-expanded;
-  font-weight: bold;
-  border-radius: 0.2vw;
-  border: none;
-  outline: none;
-  border-color: transparent;
-  padding:1vw;
-  font-size: 2vw;
-  margin: 5px;
-}
-
-.schedulePhone {
-  background-color:#706f6a;
-  color:white;
-  font-family: sans-serif; 
-  font-stretch: ultra-expanded;
-  font-weight: bold;
-  border-radius: 0.2vw;
-  border: none;
-  outline: none;
-  border-color: transparent;
-  padding:1vw;
-  font-size: 2vw;
-  margin: 5px;
-}
-
-.scheduleEmail {
-  background-color:#706f6a;
-  color:white;
-  font-family: sans-serif; 
-  font-stretch: ultra-expanded;
-  font-weight: bold;
-  border-radius: 0.2vw;
-  border: none;
-  outline: none;
-  border-color: transparent;
-  padding:1vw;
-  font-size: 2vw;
-  margin: 5px;
-}
-
-.scheduleName::placeholder {
-  color: white;
-}
-
-.schedulePhone::placeholder {
-  color: white;
-}
-
-.scheduleEmail::placeholder {
-  color: white;
-}
-
-.scheduleMessage::placeholder {
-  color: white;
-}
-
-.scheduleDate {
-  background-color:#706f6a;
-  color:white;
-  font-family: sans-serif; 
-  font-stretch: ultra-expanded;
-  font-weight: bold;
-  border-radius: 0.2vw;
-  border: none;
-  outline: none;
-  border-color: transparent;
-  padding:2vw;
-  font-size: 2vw;
-  margin: 5px;
-}
-
-.scheduleTime {
-  background-color:#706f6a;
-  color:white;
-  font-family: sans-serif; 
-  font-stretch: ultra-expanded;
-  font-weight: bold;
-  border-radius: 0.2vw;
-  border: none;
-  outline: none;
-  border-color: transparent;
-  padding:2vw;
-  font-size: 2vw;
-  margin: 5px;
-}
-
-.scheduleLocation {
-  background-color:#706f6a;
-  color:white;
-  font-family: sans-serif; 
-  font-stretch: ultra-expanded;
-  font-weight: bold;
-  border-radius: 0.2vw;
-  border: none;
-  outline: none;
-  border-color: transparent;
-  padding:2vw;
-  font-size: 2vw;
-  margin: 5px;
-}
-
-.scheduleDate::placeholder {
-  color: rgb(189, 189, 189);
-}
-
-.scheduleTime::placeholder {
-  color: rgb(189, 189, 189);
-}
-
-.scheduleLocation::placeholder {
-  color: white;
-}
-
-.schedule-row2 {
-  display:flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  padding-top: 2vw;
-  margin-top:1vw;
-}
-
-.schedule-row3 {
-  display:flex;
-  justify-content: center;
-  flex-direction: row;
-  margin-top:1vw;
-}
-
-.schedule-row4 {
-  display:flex;
-  justify-content: center;
-  padding:15px;
-  padding-bottom: 20px;
-}
-
-.scheduleSend-message {
-  background-color: #706f6a;
-  border: none;
-  outline: none;
-  border-color: transparent;
-  color:white;
-  padding:0.5vw;
-  font-size:2vw;
-  font-family: sans-serif; 
-  font-stretch: ultra-expanded;
-  font-weight: bold;
-  border-radius:0.2vw;
-  margin-top:2vw;
-  transition: 0.3s;
-}
-
-.scheduleSend-message:hover {
-  background-color: #4aa87b;
-  color:#000000;
-}
-
-.scheduleMessage {
-  background-color:#706f6a;
-  color:white;
-  font-family: sans-serif; 
-  font-stretch: ultra-expanded;
-  font-weight: bold;
-  border-radius: 0.2vw;
-  border: none;
-  outline: none;
-  border-color: transparent;
-  padding:1vw;
-  font-size: 2vw;
-  margin-top: 2vw;
-  width: 88.8%;
-} */
